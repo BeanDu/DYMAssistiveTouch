@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0763D3C21BA1BDFF003B04DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0763D3C11BA1BDFF003B04DF /* AppDelegate.swift */; };
+		0763D3C41BA1BDFF003B04DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0763D3C31BA1BDFF003B04DF /* ViewController.swift */; };
+		0763D3C71BA1BDFF003B04DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0763D3C51BA1BDFF003B04DF /* Main.storyboard */; };
+		0763D3C91BA1BDFF003B04DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0763D3C81BA1BDFF003B04DF /* Images.xcassets */; };
+		0763D3CC1BA1BDFF003B04DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0763D3CA1BA1BDFF003B04DF /* LaunchScreen.xib */; };
+		0763D3D81BA1BDFF003B04DF /* DYMAssistiveTouchDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0763D3D71BA1BDFF003B04DF /* DYMAssistiveTouchDemoTests.swift */; };
+		0763D3F21BA1C5B0003B04DF /* DYMAssistiveTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0763D3F01BA1C5B0003B04DF /* DYMAssistiveTouchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0763D3D21BA1BDFF003B04DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0763D3B41BA1BDFF003B04DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0763D3BB1BA1BDFF003B04DF;
+			remoteInfo = DYMAssistiveTouchDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0763D3BC1BA1BDFF003B04DF /* DYMAssistiveTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYMAssistiveTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0763D3C01BA1BDFF003B04DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0763D3C11BA1BDFF003B04DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0763D3C31BA1BDFF003B04DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0763D3C61BA1BDFF003B04DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0763D3C81BA1BDFF003B04DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0763D3CB1BA1BDFF003B04DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0763D3D11BA1BDFF003B04DF /* DYMAssistiveTouchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYMAssistiveTouchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0763D3D61BA1BDFF003B04DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0763D3D71BA1BDFF003B04DF /* DYMAssistiveTouchDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYMAssistiveTouchDemoTests.swift; sourceTree = "<group>"; };
+		0763D3F01BA1C5B0003B04DF /* DYMAssistiveTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYMAssistiveTouchView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0763D3B91BA1BDFF003B04DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0763D3CE1BA1BDFF003B04DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0763D3B31BA1BDFF003B04DF = {
+			isa = PBXGroup;
+			children = (
+				0763D3BE1BA1BDFF003B04DF /* DYMAssistiveTouchDemo */,
+				0763D3D41BA1BDFF003B04DF /* DYMAssistiveTouchDemoTests */,
+				0763D3BD1BA1BDFF003B04DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0763D3BD1BA1BDFF003B04DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0763D3BC1BA1BDFF003B04DF /* DYMAssistiveTouchDemo.app */,
+				0763D3D11BA1BDFF003B04DF /* DYMAssistiveTouchDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0763D3BE1BA1BDFF003B04DF /* DYMAssistiveTouchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0763D3ED1BA1C5B0003B04DF /* DYMAssistiveTouch */,
+				0763D3C11BA1BDFF003B04DF /* AppDelegate.swift */,
+				0763D3C31BA1BDFF003B04DF /* ViewController.swift */,
+				0763D3C51BA1BDFF003B04DF /* Main.storyboard */,
+				0763D3C81BA1BDFF003B04DF /* Images.xcassets */,
+				0763D3CA1BA1BDFF003B04DF /* LaunchScreen.xib */,
+				0763D3BF1BA1BDFF003B04DF /* Supporting Files */,
+			);
+			path = DYMAssistiveTouchDemo;
+			sourceTree = "<group>";
+		};
+		0763D3BF1BA1BDFF003B04DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0763D3C01BA1BDFF003B04DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0763D3D41BA1BDFF003B04DF /* DYMAssistiveTouchDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0763D3D71BA1BDFF003B04DF /* DYMAssistiveTouchDemoTests.swift */,
+				0763D3D51BA1BDFF003B04DF /* Supporting Files */,
+			);
+			path = DYMAssistiveTouchDemoTests;
+			sourceTree = "<group>";
+		};
+		0763D3D51BA1BDFF003B04DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0763D3D61BA1BDFF003B04DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0763D3ED1BA1C5B0003B04DF /* DYMAssistiveTouch */ = {
+			isa = PBXGroup;
+			children = (
+				0763D3F01BA1C5B0003B04DF /* DYMAssistiveTouchView.swift */,
+			);
+			name = DYMAssistiveTouch;
+			path = ../../DYMAssistiveTouch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0763D3BB1BA1BDFF003B04DF /* DYMAssistiveTouchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0763D3DB1BA1BDFF003B04DF /* Build configuration list for PBXNativeTarget "DYMAssistiveTouchDemo" */;
+			buildPhases = (
+				0763D3B81BA1BDFF003B04DF /* Sources */,
+				0763D3B91BA1BDFF003B04DF /* Frameworks */,
+				0763D3BA1BA1BDFF003B04DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYMAssistiveTouchDemo;
+			productName = DYMAssistiveTouchDemo;
+			productReference = 0763D3BC1BA1BDFF003B04DF /* DYMAssistiveTouchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0763D3D01BA1BDFF003B04DF /* DYMAssistiveTouchDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0763D3DE1BA1BDFF003B04DF /* Build configuration list for PBXNativeTarget "DYMAssistiveTouchDemoTests" */;
+			buildPhases = (
+				0763D3CD1BA1BDFF003B04DF /* Sources */,
+				0763D3CE1BA1BDFF003B04DF /* Frameworks */,
+				0763D3CF1BA1BDFF003B04DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0763D3D31BA1BDFF003B04DF /* PBXTargetDependency */,
+			);
+			name = DYMAssistiveTouchDemoTests;
+			productName = DYMAssistiveTouchDemoTests;
+			productReference = 0763D3D11BA1BDFF003B04DF /* DYMAssistiveTouchDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0763D3B41BA1BDFF003B04DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Bean;
+				TargetAttributes = {
+					0763D3BB1BA1BDFF003B04DF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0763D3D01BA1BDFF003B04DF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0763D3BB1BA1BDFF003B04DF;
+					};
+				};
+			};
+			buildConfigurationList = 0763D3B71BA1BDFF003B04DF /* Build configuration list for PBXProject "DYMAssistiveTouchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0763D3B31BA1BDFF003B04DF;
+			productRefGroup = 0763D3BD1BA1BDFF003B04DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0763D3BB1BA1BDFF003B04DF /* DYMAssistiveTouchDemo */,
+				0763D3D01BA1BDFF003B04DF /* DYMAssistiveTouchDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0763D3BA1BA1BDFF003B04DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0763D3C71BA1BDFF003B04DF /* Main.storyboard in Resources */,
+				0763D3CC1BA1BDFF003B04DF /* LaunchScreen.xib in Resources */,
+				0763D3C91BA1BDFF003B04DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0763D3CF1BA1BDFF003B04DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0763D3B81BA1BDFF003B04DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0763D3C41BA1BDFF003B04DF /* ViewController.swift in Sources */,
+				0763D3F21BA1C5B0003B04DF /* DYMAssistiveTouchView.swift in Sources */,
+				0763D3C21BA1BDFF003B04DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0763D3CD1BA1BDFF003B04DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0763D3D81BA1BDFF003B04DF /* DYMAssistiveTouchDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0763D3D31BA1BDFF003B04DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0763D3BB1BA1BDFF003B04DF /* DYMAssistiveTouchDemo */;
+			targetProxy = 0763D3D21BA1BDFF003B04DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0763D3C51BA1BDFF003B04DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0763D3C61BA1BDFF003B04DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0763D3CA1BA1BDFF003B04DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0763D3CB1BA1BDFF003B04DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0763D3D91BA1BDFF003B04DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0763D3DA1BA1BDFF003B04DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0763D3DC1BA1BDFF003B04DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYMAssistiveTouchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0763D3DD1BA1BDFF003B04DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYMAssistiveTouchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0763D3DF1BA1BDFF003B04DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DYMAssistiveTouchDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYMAssistiveTouchDemo.app/DYMAssistiveTouchDemo";
+			};
+			name = Debug;
+		};
+		0763D3E01BA1BDFF003B04DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DYMAssistiveTouchDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYMAssistiveTouchDemo.app/DYMAssistiveTouchDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0763D3B71BA1BDFF003B04DF /* Build configuration list for PBXProject "DYMAssistiveTouchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0763D3D91BA1BDFF003B04DF /* Debug */,
+				0763D3DA1BA1BDFF003B04DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0763D3DB1BA1BDFF003B04DF /* Build configuration list for PBXNativeTarget "DYMAssistiveTouchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0763D3DC1BA1BDFF003B04DF /* Debug */,
+				0763D3DD1BA1BDFF003B04DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0763D3DE1BA1BDFF003B04DF /* Build configuration list for PBXNativeTarget "DYMAssistiveTouchDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0763D3DF1BA1BDFF003B04DF /* Debug */,
+				0763D3E01BA1BDFF003B04DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0763D3B41BA1BDFF003B04DF /* Project object */;
+}
